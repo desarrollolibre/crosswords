@@ -11,15 +11,12 @@ jquery 1.9.1
 To install you must first clone this project:
 
 ```sh
-  git clone https://github.com/desarrollolibre/crosswords.git
+  git clone https://github.com/desarrollolibre/crosswords.git && cd crosswords
 ```
 
-Now you need download jquery.js file to folder "js/lib". 
+Now you need download jquery.js file to folder "js/lib" using npm and grunt commands:
 
-
-1.- Using npm and grunt commands:
-
-You can download it with npm command:
+You will download "jquery lib" with npm command:
 
 ```sh
   npm install
@@ -31,8 +28,14 @@ Then you copy the just download file to "js/lib" executing the grunt command:
   grunt
 ```
 
+If you folder "js/lib" contains a "jquery.js" it's all right.
+
 ### Use it
 
-With your favorite browser open the [crucigrama.htm] file
+With your favorite browser open the crucigrama.htm file.
+
+### Demo
+
+http://www.desarrollolibre.cl/drupal7/crucigrama-drupalero
 
 
